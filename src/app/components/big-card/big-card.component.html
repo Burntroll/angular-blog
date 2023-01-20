@@ -1,14 +1,12 @@
 <div class="container__big-card">
   <div class="big-card__picture">
-    <img
-    src="https://mosaicfest.ru/wp-content/uploads/2021/04/placeholder.png" alt="placeholder"
-    >
+    <img src="{{ photoCover }}" alt="placeholder">
   </div>
   <div class="big-card__timestamp">January 20, 2023</div>
   <div class="big-card__title">
-    <h2><a href="#">Angular v15 is now available!</a></h2>
+    <h2><a href="#">{{ cardTitle }}</a></h2>
   </div>
   <div class="big-card__description">
-    <p><a href="#">Over the past year we removed Angular’s legacy compiler and rendering pipeline which enabled the development of a series of developer experience improvements in the past couple of months.</a></p>
+    <p><a href="#">{{ cardDescription }}</a></p>
   </div>
 </div>
