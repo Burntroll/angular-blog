@@ -17,3 +17,8 @@ body {
 a {
   text-decoration: none;
 }
+
+li a {
+  text-decoration: none;
+  color: #fefefe;
+}
